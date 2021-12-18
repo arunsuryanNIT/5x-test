@@ -4,7 +4,7 @@ with source as (
 ),
 
 renamed as (
-    select LOCATION AS PROVINCE,TOTAL_CASES, from source where LOCATION_LEVEL='Province'
+    select LOCATION AS PROVINCE,TOTAL_CASES from source where LOCATION_LEVEL='Province'
 )
 
 select * from renamed
