@@ -1,10 +1,5 @@
 version: 2
 
-models:
-    - name: get_total_cases_by_region
-
-    - name: get_highest_deaths_by_region
-
 sources:
   - name: covid19_data
     database: FIVETRAN_INTERVIEW_DB
